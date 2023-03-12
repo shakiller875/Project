@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "web Suite" parallel="false">
+    <test name="web Tests">
+        <parameter name="PlatformName" value="dataBase"/>
+        <classes>
+            <class name="sanity.GrafanaWebDB" />
+        </classes>
+    </test>
+</suite>

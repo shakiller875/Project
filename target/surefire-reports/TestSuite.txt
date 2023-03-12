@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 4, Time elapsed: 5.642 s <<< FAILURE! - in TestSuite
+startSession(sanity.CalculatorDesktop)  Time elapsed: 5.005 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Connection refused: connect
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-M3330UV', ip: '192.168.1.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: WindowsDriver
+Caused by: java.net.ConnectException: Connection refused: connect
+

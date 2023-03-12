@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Enviroment>
+    <!--TimeOut-->
+    <Timeout>5</Timeout>
+    <!--General-->
+    <PlatformName>web</PlatformName>
+
+    <!--Authorization -->
+    <Username>admin</Username>
+    <Password>admin</Password>
+
+    <!--Web-->
+    <BrowserName>chrome</BrowserName>
+    <url>http://localhost:3000/</url>
+    <imageRepo>C:\\Automation\\FinalProject\\ImageRepository\\</imageRepo>
+
+    <!--Data Driven Testing -->
+    <DDTFile>./DDTFiles/users.csv</DDTFile>
+
+    <!--Mobile -->
+    <UDID>RFCNC030Y0M</UDID>
+    <AppPackage>com.example.android.apis</AppPackage>
+    <AppActivity>.ApiDemos</AppActivity>
+    <AppiumServer>http://localhost:4723/wd/hub</AppiumServer>
+
+
+    <!--API-->
+    <urlAPI>http://localhost:3000/</urlAPI>
+
+    <!--Electron -->
+    <ElectronDriverPath>./Drivers/electron.exe</ElectronDriverPath>
+    <ElectronAppPath>C:/Users/User/AppData/Local/Programs/todolist/todoList.exe</ElectronAppPath>
+
+
+    <!--Desktop -->
+    <CalculatorApp>Microsoft.WindowsCalculator_8wekyb3d8bbwe!App</CalculatorApp>
+    <AppiumServerDesktop>http://127.0.0.1:4723</AppiumServerDesktop>
+
+    <!--DataBase -->
+    <DBURL>jdbc:mysql://sql7.freemysqlhosting.net:3306/sql7593499</DBURL>
+    <DBUserName>sql7593499</DBUserName>
+    <DBPassword>47PEbLmxBm</DBPassword>
+</Enviroment>
