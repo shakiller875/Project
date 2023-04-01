@@ -6,6 +6,7 @@ The project demonstates a smart automation infrastructure. It is built in hierar
 The project is an example of infrastructure for automation testing of different kinds of applications:
 
 * Web based application
+* DataBase
 * Mobile application
 * Web API
 * Electron application
@@ -22,11 +23,12 @@ The project is an example of infrastructure for automation testing of different 
 * DB support
 * CI support
 ## List of applications were used in this project:
-* Grafana webpage - Web based application
-* Mortgage calculator - Mobile application
+* Grafana Webpage - Web based application
+*  API Demos - Mobile application
 * Grafana API - Web API
-* Electron application
+* Electron - TodoList application
 * Windows calculator - Desktop application
+* DataBase - GrafanaDB
  ## Tools & Frameworks used in the project:
  * TestNG - Testing Framework
 * Listeners - interface used to generate logs and customize the TestNG reports
